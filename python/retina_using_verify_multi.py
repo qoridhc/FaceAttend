@@ -22,12 +22,12 @@ from firebase_admin import db
 #Firebase database 인증 및 앱 초기화
 cred = credentials.Certificate('firebaseAccountKey.json')
 firebase_admin.initialize_app(cred,{
-    'databaseURL' : 'https://capston-d05a1-default-rtdb.asia-southeast1.firebasedatabase.app/'
+    'databaseURL' : 'https://facepractice-fd93d-default-rtdb.firebaseio.com/'
 })
 
 # ref = db.reference('이미지') #경로가 없으면 생성.
-# ref.update({'22-11-20 20:23:59' : 'https://firebasestorage.googleapis.com/v0/b/capston-d05a1.appspot.com/o/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_20221011_112435.png?alt=media&token=22175628-bc75-477c-9db9-4e8ee41022cf'})
-# ref.update({'22-11-21 22:33:33' : 'https://firebasestorage.googleapis.com/v0/b/capston-d05a1.appspot.com/o/nine_test.jpg?alt=media&token=db64fbf0-791f-4a79-8116-31931b813d85'})
+# ref.update({'22-11-20 20:23:59' : 'https://firebasestorage.googleapis.com/v0/b/facepractice-fd93d.appspot.com/o/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_20221011_112435.png?alt=media&token=22175628-bc75-477c-9db9-4e8ee41022cf'})
+# ref.update({'22-11-21 22:33:33' : 'https://firebasestorage.googleapis.com/v0/b/facepractice-fd93d.appspot.com/o/nine_test.jpg?alt=media&token=db64fbf0-791f-4a79-8116-31931b813d85'})
 
 dbPath = "name/"  # 비교할 얼굴 데이터가 들어있는 폴더 경로
 

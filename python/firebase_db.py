@@ -19,7 +19,7 @@ class FirebaseDB:
     a = 0
     _instance = None
     sdk_path = 'firebaseAccountKey.json'
-    url = 'https://capston-d05a1-default-rtdb.asia-southeast1.firebasedatabase.app/'
+    url = 'https://facepractice-fd93d-default-rtdb.firebaseio.com'
     _ref = None
     query = None
 
