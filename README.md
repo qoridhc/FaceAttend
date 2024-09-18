@@ -32,6 +32,17 @@ A new Flutter project.
 ## :closed_book:시스템 아키텍처
 ![image](https://github.com/user-attachments/assets/2709a459-3ef9-47ed-9b5f-a67422907013)
 
+## 얼굴 판별 플로우
+![image](https://github.com/user-attachments/assets/402b3f41-37fc-408d-9a7e-9c5a7702f1e0)
+
+## 얼굴 인식 결과
+
+![image](https://github.com/user-attachments/assets/72d53007-0359-4ffa-b787-4370338aad03)
+- 다수의 인원 얼굴 인식 성능 95% 이상
+  
+![20240918_213824](https://github.com/user-attachments/assets/4f2f8650-dbfa-4819-b973-705f96e70fe0)
+- 얼굴 판별 구현 결과
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
