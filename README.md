@@ -32,6 +32,11 @@ A new Flutter project.
 ## :closed_book:시스템 아키텍처
 ![image](https://github.com/user-attachments/assets/2709a459-3ef9-47ed-9b5f-a67422907013)
 
+## 모델 선정 이유
+- 얼굴인식 관련 다양한 모델 중 어떤 모델이 가장 성능이 좋은지 자체 테스트를 진행
+- 테스트 결과 RetinaFace모델이 가장 우수한 성능을 보여주는것을 확인 
+![image](https://github.com/user-attachments/assets/79f39e95-a5e6-48a7-9505-452eea7fa672)
+
 ## 얼굴 판별 플로우
 ![image](https://github.com/user-attachments/assets/402b3f41-37fc-408d-9a7e-9c5a7702f1e0)
 
